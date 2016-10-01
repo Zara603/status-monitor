@@ -1,0 +1,89 @@
+   body {
+            background-color: #eff1f2;
+            color: #777e8a;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        table {
+            border-spacing: 0;
+        }
+
+        td, th {
+            padding: 4px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            font-weight: normal;
+            padding: 6px;
+            color: #65737e;
+        }
+
+        li {
+            padding: 2px 0 2px 0;
+        }
+        pre {
+            font-family: courier;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        .environment {
+            width: 375px;
+            background-color: #444;
+            border-radius: 10px;
+            padding: 10px;
+            margin-left: 10px;
+            color: #eee;
+        }
+        .history {
+            width: 100%; 
+        }
+        .environment-container {
+            padding: 20px;
+        }
+        .SUCCESS td{
+            color: #5fba7d;
+
+        }
+        .FAILURE td{
+            color: #e67869;
+
+        }
+        .ABORTED td{
+            color: #CCC;
+        }
+        .status {
+            border-radius: 4px;
+            text-align: center;
+        }
+        .status-200 {
+            background-color: #dff0d8;
+            color: #5fba7d;
+        }
+        .summary {
+            height: 300px;  
+        }
+        .in-progress {
+            animation: blink-animation 3s steps(30, start) infinite;
+            -webkit-animation: blink-animation 3s steps(30, start) infinite;
+            background-color: #777;
+        }
+        .version {
+            width: 250px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;         
+        }
+        @keyframes blink-animation {
+            to {
+                background-color: #8c8c05;
+            }
+        }
+        @-webkit-keyframes blink-animation {
+            to {
+                background-color: #8c8c05;
+            }
+        }
