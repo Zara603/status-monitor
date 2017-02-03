@@ -1,0 +1,748 @@
+{
+	"actions": [{
+		
+	},
+	{
+		"causes": [{
+			"shortDescription": "Started by an SCM change"
+		}]
+	},
+	{
+		
+	},
+	{
+		"buildsByBranchName": {
+			"refs/remotes/origin/master": {
+				"buildNumber": 51,
+				"buildResult": null,
+				"marked": {
+					"SHA1": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+					"branch": [{
+						"SHA1": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+						"name": "refs/remotes/origin/master"
+					}]
+				},
+				"revision": {
+					"SHA1": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+					"branch": [{
+						"SHA1": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+						"name": "refs/remotes/origin/master"
+					}]
+				}
+			}
+		},
+		"lastBuiltRevision": {
+			"SHA1": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+			"branch": [{
+				"SHA1": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+				"name": "refs/remotes/origin/master"
+			}]
+		},
+		"remoteUrls": ["https://pacificmags.visualstudio.com/DefaultCollection/_git/Atlantic"],
+		"scmName": ""
+	},
+	{
+		
+	},
+	{
+		
+	},
+	{
+		
+	},
+	{
+		
+	},
+	{
+		
+	},
+	{
+		"failCount": 0,
+		"skipCount": 0,
+		"totalCount": 1,
+		"urlName": "testReport"
+	},
+	{
+		
+	},
+	{
+		
+	},
+	{
+		
+	}],
+	"artifacts": [{
+		"displayPath": null,
+		"fileName": "NuGet.Config",
+		"relativePath": "src/CiArtefact/kkm-defaults/.nuget/NuGet.Config"
+	},
+	{
+		"displayPath": null,
+		"fileName": "NuGet.exe",
+		"relativePath": "src/CiArtefact/kkm-defaults/.nuget/NuGet.exe"
+	},
+	{
+		"displayPath": null,
+		"fileName": "NuGet.targets",
+		"relativePath": "src/CiArtefact/kkm-defaults/.nuget/NuGet.targets"
+	},
+	{
+		"displayPath": null,
+		"fileName": "packages.config",
+		"relativePath": "src/CiArtefact/kkm-defaults/.nuget/packages.config"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Deploy-Nuget.ps1",
+		"relativePath": "src/CiArtefact/kkm-defaults/Deploy-Nuget.ps1"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Deploy-WebDeploy.ps1",
+		"relativePath": "src/CiArtefact/kkm-defaults/Deploy-WebDeploy.ps1"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Run-NUnitTests.ps1",
+		"relativePath": "src/CiArtefact/kkm-defaults/Run-NUnitTests.ps1"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Azure-WebDeploy.ps1",
+		"relativePath": "src/CiArtefact/kkm-pd-custom/Azure-WebDeploy.ps1"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Deploy-WebDeploy.ps1",
+		"relativePath": "src/CiArtefact/kkm-pd-custom/Deploy-WebDeploy.ps1"
+	},
+	{
+		"displayPath": null,
+		"fileName": "MsDeploy.ps1",
+		"relativePath": "src/CiArtefact/kkm-pd-custom/MsDeploy.ps1"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.Deploy.ps1",
+		"relativePath": "src/CiArtefact/kkm-pd-custom/Site.Deploy.ps1"
+	},
+	{
+		"displayPath": null,
+		"fileName": "NUnit.Runners.3.0.1.nupkg",
+		"relativePath": "src/CiArtefact/NUnit.Runners.3.0.1/NUnit.Runners.3.0.1.nupkg"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Bhg.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.Bhg.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Famous.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.Famous.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.HomeBeautiful.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.HomeBeautiful.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.MarieClaire.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.MarieClaire.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.MensHealth.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.MensHealth.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.NewIdea.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.NewIdea.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.PracticalParenting.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.PracticalParenting.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Prevention.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.Prevention.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Who.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.Who.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.WomensHealth.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Brand/Site.SetParameters.WomensHealth.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "atlantic-staging-bhg.PublishSettings",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/PublishSettings/atlantic-staging-bhg.PublishSettings"
+	},
+	{
+		"displayPath": null,
+		"fileName": "atlantic-staging-marieclaire.PublishSettings",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/PublishSettings/atlantic-staging-marieclaire.PublishSettings"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.deploy-readme.txt",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.deploy-readme.txt"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.deploy.cmd",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.deploy.cmd"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Clean.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.Clean.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Dev.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.Dev.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Local.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.Local.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Prod.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.Prod.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Staging.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.Staging.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Tests.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.Tests.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.Uat.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.Uat.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SetParameters.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SetParameters.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.SourceManifest.xml",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.SourceManifest.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Site.zip",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.Cms/Site.zip"
+	},
+	{
+		"displayPath": null,
+		"fileName": "DbUp.dll",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.DbMigration_1_0_0_0/DbUp.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.DbMigration.exe",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.DbMigration_1_0_0_0/PacDig.Atlantic.DbMigration.exe"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.DbMigration.exe.config",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.DbMigration_1_0_0_0/PacDig.Atlantic.DbMigration.exe.config"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.DbMigration.exe.manifest",
+		"relativePath": "src/CiArtefact/PacDig.Atlantic.DbMigration_1_0_0_0/PacDig.Atlantic.DbMigration.exe.manifest"
+	},
+	{
+		"displayPath": null,
+		"fileName": "ApplicationInsights.config",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/ApplicationInsights.config"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Archetype.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Archetype.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "AutoMapper.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/AutoMapper.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "AutoMapper.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/AutoMapper.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "businesslogic.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/businesslogic.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "businesslogic.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/businesslogic.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "ClientDependency.Core.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/ClientDependency.Core.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "ClientDependency.Core.pdb",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/ClientDependency.Core.pdb"
+	},
+	{
+		"displayPath": null,
+		"fileName": "cms.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/cms.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "cms.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/cms.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "controls.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/controls.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "controls.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/controls.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "CookComputing.XmlRpcV2.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/CookComputing.XmlRpcV2.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Examine.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Examine.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Examine.pdb",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Examine.pdb"
+	},
+	{
+		"displayPath": null,
+		"fileName": "HtmlAgilityPack.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/HtmlAgilityPack.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "HtmlAgilityPack.pdb",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/HtmlAgilityPack.pdb"
+	},
+	{
+		"displayPath": null,
+		"fileName": "HtmlAgilityPack.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/HtmlAgilityPack.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "ICSharpCode.SharpZipLib.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/ICSharpCode.SharpZipLib.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "interfaces.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/interfaces.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "interfaces.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/interfaces.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "log4net.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/log4net.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Lucene.Net.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Lucene.Net.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Lucene.Net.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Lucene.Net.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.ApplicationBlocks.Data.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.ApplicationBlocks.Data.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.AspNet.Identity.Core.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.AspNet.Identity.Core.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.AspNet.Identity.Core.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.AspNet.Identity.Core.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.AspNet.Identity.Owin.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.AspNet.Identity.Owin.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.AspNet.Identity.Owin.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.AspNet.Identity.Owin.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.CodeAnalysis.CSharp.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.CodeAnalysis.CSharp.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.CodeAnalysis.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.CodeAnalysis.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.Host.SystemWeb.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.Host.SystemWeb.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.Host.SystemWeb.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.Host.SystemWeb.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.Security.Cookies.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.Security.Cookies.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.Security.Cookies.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.Security.Cookies.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.Security.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.Security.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.Security.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.Security.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Microsoft.Owin.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Microsoft.Owin.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "MiniProfiler.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/MiniProfiler.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "MiniProfiler.pdb",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/MiniProfiler.pdb"
+	},
+	{
+		"displayPath": null,
+		"fileName": "MiniProfiler.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/MiniProfiler.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "MySql.Data.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/MySql.Data.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Newtonsoft.Json.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Newtonsoft.Json.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Newtonsoft.Json.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Newtonsoft.Json.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "nunit.framework.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/nunit.framework.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "nunit.framework.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/nunit.framework.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Owin.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Owin.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.Cms.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/PacDig.Atlantic.Cms.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.Cms.pdb",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/PacDig.Atlantic.Cms.pdb"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.Cms.Tests.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/PacDig.Atlantic.Cms.Tests.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.Cms.Tests.dll.CodeAnalysisLog.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/PacDig.Atlantic.Cms.Tests.dll.CodeAnalysisLog.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.Cms.Tests.dll.lastcodeanalysissucceeded",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/PacDig.Atlantic.Cms.Tests.dll.lastcodeanalysissucceeded"
+	},
+	{
+		"displayPath": null,
+		"fileName": "PacDig.Atlantic.Cms.Tests.pdb",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/PacDig.Atlantic.Cms.Tests.pdb"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Semver.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Semver.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Collections.Immutable.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Collections.Immutable.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Net.Http.Formatting.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Net.Http.Formatting.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Net.Http.Formatting.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Net.Http.Formatting.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Reflection.Metadata.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Reflection.Metadata.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Http.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Http.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Http.WebHost.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Http.WebHost.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Http.WebHost.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Http.WebHost.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Http.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Http.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Mvc.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Mvc.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Mvc.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Mvc.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Optimization.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Optimization.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Optimization.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Optimization.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Razor.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Razor.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.Razor.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.Razor.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.WebPages.Deployment.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.WebPages.Deployment.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.WebPages.Deployment.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.WebPages.Deployment.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.WebPages.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.WebPages.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.WebPages.Razor.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.WebPages.Razor.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.WebPages.Razor.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.WebPages.Razor.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "System.Web.WebPages.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/System.Web.WebPages.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "TidyNet.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/TidyNet.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Umbraco.Core.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Umbraco.Core.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Umbraco.Core.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Umbraco.Core.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "umbraco.DataLayer.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/umbraco.DataLayer.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "umbraco.DataLayer.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/umbraco.DataLayer.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "umbraco.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/umbraco.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "umbraco.providers.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/umbraco.providers.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "umbraco.providers.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/umbraco.providers.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "umbraco.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/umbraco.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "UmbracoExamine.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/UmbracoExamine.dll"
+	},
+	{
+		"displayPath": null,
+		"fileName": "UmbracoExamine.xml",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/UmbracoExamine.xml"
+	},
+	{
+		"displayPath": null,
+		"fileName": "Zbu.ModelsBuilder.dll",
+		"relativePath": "src/CiArtefact/TestAssemblies/PacDig.Atlantic.Cms.Tests/Zbu.ModelsBuilder.dll"
+	}],
+	"building": false,
+	"description": null,
+	"displayName": "#51",
+	"duration": 470649,
+	"estimatedDuration": 474814,
+	"executor": null,
+	"fullDisplayName": "Atlantic - BTA #51",
+	"id": "51",
+	"keepLog": false,
+	"number": 51,
+	"queueId": 11215,
+	"result": "SUCCESS",
+	"timestamp": 1454904365936,
+	"url": "http://j.digitalent.link:8080/job/Atlantic%20-%20BTA/51/",
+	"builtOn": "win-i-216063ff-4e0e981f",
+	"changeSet": {
+		"items": [{
+			"affectedPaths": ["src/kaiseki-bootstrap/kkm-pd-custom/Azure-WebDeploy.ps1"],
+			"commitId": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+			"timestamp": -1,
+			"author": {
+				"absoluteUrl": "http://j.digitalent.link:8080/user/jonathon.schofield",
+				"fullName": "jonathon.schofield"
+			},
+			"comment": "#2268 - Create Azure 'deploy to staging' script\nUncommented line that triggers the deployment :)\n",
+			"date": "2016-02-08 15:03:09 +1100",
+			"id": "bd94dcbd92a9286355d0b1c37e77d96dea8b49fc",
+			"msg": "#2268 - Create Azure 'deploy to staging' script",
+			"paths": [{
+				"editType": "edit",
+				"file": "src/kaiseki-bootstrap/kkm-pd-custom/Azure-WebDeploy.ps1"
+			}]
+		}],
+		"kind": "git"
+	},
+	"culprits": [{
+		"absoluteUrl": "http://j.digitalent.link:8080/user/jonathon.schofield",
+		"fullName": "jonathon.schofield"
+	}]
+}

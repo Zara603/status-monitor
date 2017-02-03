@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+    <style>
+        body {
+            background-color: #333;
+            color: #EEE;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        table {
+            border-spacing: 0;
+        }
+        td, th {
+            padding: 4px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            padding: 6px;
+            text-transform: uppercase;
+            background-color: #778;
+            color: #eee;
+        }
+        td {
+        }
+        li {
+            padding: 2px 0 2px 0;
+        }
+        pre {
+            font-family: courier;
+        }
+        .environment {
+            width: 375px;
+            background-color: #444;
+            border-radius: 10px;
+            padding: 10px;
+            margin-left: 10px;
+            color: #eee;
+        }
+        .history {
+            width: 100%; 
+        }
+        .environment-container {
+        }
+        .SUCCESS td{
+            background-color: #1c771c;
+        }
+        .FAILURE td{
+            background-color: #902424;
+        }
+        .ABORTED td{
+            background-color: #777;
+            color: #CCC;
+        }
+        .status {
+            background-color: #902424;
+        }
+        .status-200 {
+            background-color: #1c771c;
+        }
+        .summary {
+            height: 300px;  
+        }
+        .in-progress {
+            animation: blink-animation 3s steps(30, start) infinite;
+            -webkit-animation: blink-animation 3s steps(30, start) infinite;
+            background-color: #777;
+        }
+        @keyframes blink-animation {
+            to {
+                background-color: #8c8c05;
+            }
+        }
+        @-webkit-keyframes blink-animation {
+            to {
+                background-color: #8c8c05;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Oscar Winter Environments</h1>
+    <div class="environment-container">
+      <table class="environments">
+        <tr>
+        {{#each this}}
+        <td class="environment-cell">
+           <div class="environment">
+              <div class="summary">
+                  <h2>{{this.name}}</h2>
+                  <div><a href="{{this.siteUrl}}">Site</a></div>
+                  <div><a href="{{this.backofficeUrl}}">Backoffice</a></div>
+                  <h2 class="status status-{{this.current.status}}">{{this.current.status}}</h2>
+                  <div>{{{this.current.detailsHtml}}}</div>
+              </div>
+              <div class="history">
+                <h3>Deployments</h3>
+                <table class="history">
+                <tr>
+                    <th>Build#</th>
+                    <th>Branch</th>
+                    <th>Time</th>
+                </tr>
+                {{#each deploys}}
+                <tr class="{{this.result}}">                    
+                    <td><a href="{{this.link}}">{{this.deployed}}</a></td>
+                    <td>{{this.branch}}</td>
+                    <td>{{this.timeString}}</td>
+                </tr>
+                {{/each}}
+                </table>
+              </div>
+           </div>
+        </td>
+        {{/each}}
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,290 @@
+{
+	"assignedLabels": [{
+		
+	}],
+	"mode": "NORMAL",
+	"nodeDescription": "the master Jenkins node",
+	"nodeName": "",
+	"numExecutors": 0,
+	"description": null,
+	"jobs": [{
+		"name": "Apple News - BTA",
+		"url": "http://j.digitalent.link:8080/job/Apple%20News%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Apple News - Deploy to Prod",
+		"url": "http://j.digitalent.link:8080/job/Apple%20News%20-%20Deploy%20to%20Prod/",
+		"color": "blue"
+	},
+	{
+		"name": "Apple News - Deploy to Staging",
+		"url": "http://j.digitalent.link:8080/job/Apple%20News%20-%20Deploy%20to%20Staging/",
+		"color": "blue"
+	},
+	{
+		"name": "Apple News - Deploy to Uat",
+		"url": "http://j.digitalent.link:8080/job/Apple%20News%20-%20Deploy%20to%20Uat/",
+		"color": "blue"
+	},
+	{
+		"name": "Apple News - End to End Tests",
+		"url": "http://j.digitalent.link:8080/job/Apple%20News%20-%20End%20to%20End%20Tests/",
+		"color": "blue"
+	},
+	{
+		"name": "Atlantic - BTA",
+		"url": "http://j.digitalent.link:8080/job/Atlantic%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Atlantic - Deploy to Dev",
+		"url": "http://j.digitalent.link:8080/job/Atlantic%20-%20Deploy%20to%20Dev/",
+		"color": "blue"
+	},
+	{
+		"name": "Atlantic - Deploy to Staging",
+		"url": "http://j.digitalent.link:8080/job/Atlantic%20-%20Deploy%20to%20Staging/",
+		"color": "blue"
+	},
+	{
+		"name": "Australia Open - BTA",
+		"url": "http://j.digitalent.link:8080/job/Australia%20Open%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Australia Open - Deploy to Prod",
+		"url": "http://j.digitalent.link:8080/job/Australia%20Open%20-%20Deploy%20to%20Prod/",
+		"color": "blue"
+	},
+	{
+		"name": "Australia Open - Deploy to Staging",
+		"url": "http://j.digitalent.link:8080/job/Australia%20Open%20-%20Deploy%20to%20Staging/",
+		"color": "blue"
+	},
+	{
+		"name": "Australia Open - Deploy to Uat",
+		"url": "http://j.digitalent.link:8080/job/Australia%20Open%20-%20Deploy%20to%20Uat/",
+		"color": "blue"
+	},
+	{
+		"name": "Australia Open - End to End Tests",
+		"url": "http://j.digitalent.link:8080/job/Australia%20Open%20-%20End%20to%20End%20Tests/",
+		"color": "blue"
+	},
+	{
+		"name": "Beauty Love - BTA",
+		"url": "http://j.digitalent.link:8080/job/Beauty%20Love%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Beauty Love - Deploy to Dev",
+		"url": "http://j.digitalent.link:8080/job/Beauty%20Love%20-%20Deploy%20to%20Dev/",
+		"color": "blue"
+	},
+	{
+		"name": "Beauty Love - Deploy to Prod",
+		"url": "http://j.digitalent.link:8080/job/Beauty%20Love%20-%20Deploy%20to%20Prod/",
+		"color": "blue"
+	},
+	{
+		"name": "Beauty Love - Deploy to Staging",
+		"url": "http://j.digitalent.link:8080/job/Beauty%20Love%20-%20Deploy%20to%20Staging/",
+		"color": "blue"
+	},
+	{
+		"name": "Beauty Love - Deploy to Uat",
+		"url": "http://j.digitalent.link:8080/job/Beauty%20Love%20-%20Deploy%20to%20Uat/",
+		"color": "blue"
+	},
+	{
+		"name": "Beauty Love - End to End Tests",
+		"url": "http://j.digitalent.link:8080/job/Beauty%20Love%20-%20End%20to%20End%20Tests/",
+		"color": "blue"
+	},
+	{
+		"name": "BHG Shop - BTA",
+		"url": "http://j.digitalent.link:8080/job/BHG%20Shop%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Bhg Shop - Deploy to Prod",
+		"url": "http://j.digitalent.link:8080/job/Bhg%20Shop%20-%20Deploy%20to%20Prod/",
+		"color": "blue"
+	},
+	{
+		"name": "Bhg Shop - Deploy to Staging",
+		"url": "http://j.digitalent.link:8080/job/Bhg%20Shop%20-%20Deploy%20to%20Staging/",
+		"color": "blue"
+	},
+	{
+		"name": "Bhg Shop - Deploy to Uat",
+		"url": "http://j.digitalent.link:8080/job/Bhg%20Shop%20-%20Deploy%20to%20Uat/",
+		"color": "blue"
+	},
+	{
+		"name": "Bhg Shop - End to End Tests",
+		"url": "http://j.digitalent.link:8080/job/Bhg%20Shop%20-%20End%20to%20End%20Tests/",
+		"color": "blue"
+	},
+	{
+		"name": "Content - BTA",
+		"url": "http://j.digitalent.link:8080/job/Content%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Deploy to Dev",
+		"url": "http://j.digitalent.link:8080/job/Deploy%20to%20Dev/",
+		"color": "blue"
+	},
+	{
+		"name": "Deploy to Nuget Production",
+		"url": "http://j.digitalent.link:8080/job/Deploy%20to%20Nuget%20Production/",
+		"color": "blue"
+	},
+	{
+		"name": "Deploy to Nuget Sandbox",
+		"url": "http://j.digitalent.link:8080/job/Deploy%20to%20Nuget%20Sandbox/",
+		"color": "blue"
+	},
+	{
+		"name": "Deploy to Uat",
+		"url": "http://j.digitalent.link:8080/job/Deploy%20to%20Uat/",
+		"color": "notbuilt"
+	},
+	{
+		"name": "Forensics - BTA",
+		"url": "http://j.digitalent.link:8080/job/Forensics%20-%20BTA/",
+		"color": "disabled"
+	},
+	{
+		"name": "Nugget - BTA",
+		"url": "http://j.digitalent.link:8080/job/Nugget%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Oscar Winter - BTA",
+		"url": "http://j.digitalent.link:8080/job/Oscar%20Winter%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Oscar Winter - Deploy to Prod",
+		"url": "http://j.digitalent.link:8080/job/Oscar%20Winter%20-%20Deploy%20to%20Prod/",
+		"color": "disabled"
+	},
+	{
+		"name": "Oscar Winter - Deploy to Prod - US",
+		"url": "http://j.digitalent.link:8080/job/Oscar%20Winter%20-%20Deploy%20to%20Prod%20-%20US/",
+		"color": "blue"
+	},
+	{
+		"name": "Oscar Winter - Deploy to Staging",
+		"url": "http://j.digitalent.link:8080/job/Oscar%20Winter%20-%20Deploy%20to%20Staging/",
+		"color": "blue"
+	},
+	{
+		"name": "Oscar Winter - Deploy to Staging - US",
+		"url": "http://j.digitalent.link:8080/job/Oscar%20Winter%20-%20Deploy%20to%20Staging%20-%20US/",
+		"color": "blue"
+	},
+	{
+		"name": "Oscar Winter - Deploy to Uat",
+		"url": "http://j.digitalent.link:8080/job/Oscar%20Winter%20-%20Deploy%20to%20Uat/",
+		"color": "disabled"
+	},
+	{
+		"name": "Oscar Winter - End to End Tests",
+		"url": "http://j.digitalent.link:8080/job/Oscar%20Winter%20-%20End%20to%20End%20Tests/",
+		"color": "blue"
+	},
+	{
+		"name": "Resource Dashboard - BTA",
+		"url": "http://j.digitalent.link:8080/job/Resource%20Dashboard%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Sashimi - BTA",
+		"url": "http://j.digitalent.link:8080/job/Sashimi%20-%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Swallow BTA",
+		"url": "http://j.digitalent.link:8080/job/Swallow%20BTA/",
+		"color": "blue"
+	},
+	{
+		"name": "Upfronts - BTA",
+		"url": "http://j.digitalent.link:8080/job/Upfronts%20-%20BTA/",
+		"color": "disabled"
+	},
+	{
+		"name": "Upfronts - Deploy to Prod",
+		"url": "http://j.digitalent.link:8080/job/Upfronts%20-%20Deploy%20to%20Prod/",
+		"color": "blue"
+	},
+	{
+		"name": "Upfronts - Deploy to Staging",
+		"url": "http://j.digitalent.link:8080/job/Upfronts%20-%20Deploy%20to%20Staging/",
+		"color": "blue"
+	},
+	{
+		"name": "Upfronts - Deploy to Uat",
+		"url": "http://j.digitalent.link:8080/job/Upfronts%20-%20Deploy%20to%20Uat/",
+		"color": "blue"
+	},
+	{
+		"name": "Upfronts - End to End Tests",
+		"url": "http://j.digitalent.link:8080/job/Upfronts%20-%20End%20to%20End%20Tests/",
+		"color": "blue"
+	}],
+	"overallLoad": {
+		
+	},
+	"primaryView": {
+		"name": "All",
+		"url": "http://j.digitalent.link:8080/"
+	},
+	"quietingDown": false,
+	"slaveAgentPort": 0,
+	"unlabeledLoad": {
+		
+	},
+	"useCrumbs": false,
+	"useSecurity": true,
+	"views": [{
+		"name": "All",
+		"url": "http://j.digitalent.link:8080/"
+	},
+	{
+		"name": "Apple News",
+		"url": "http://j.digitalent.link:8080/view/Apple%20News/"
+	},
+	{
+		"name": "Australia Open",
+		"url": "http://j.digitalent.link:8080/view/Australia%20Open/"
+	},
+	{
+		"name": "Beauty Love",
+		"url": "http://j.digitalent.link:8080/view/Beauty%20Love/"
+	},
+	{
+		"name": "Bhg Shop",
+		"url": "http://j.digitalent.link:8080/view/Bhg%20Shop/"
+	},
+	{
+		"name": "Nuget Packages",
+		"url": "http://j.digitalent.link:8080/view/Nuget%20Packages/"
+	},
+	{
+		"name": "Oscar Winter",
+		"url": "http://j.digitalent.link:8080/view/Oscar%20Winter/"
+	},
+	{
+		"name": "Resource Dashboard",
+		"url": "http://j.digitalent.link:8080/view/Resource%20Dashboard/"
+	},
+	{
+		"name": "Upfronts",
+		"url": "http://j.digitalent.link:8080/view/Upfronts/"
+	}]
+}

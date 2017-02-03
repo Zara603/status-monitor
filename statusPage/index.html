@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="handlebars-v4.0.5.js"></script>
+        <script id="template" type="text/x-handlebars-template" >
+            <h1>Oscar Winter Environments</h1>
+                <div class="environment-container">
+                  <table class="environments">
+                    <tr>
+                    {{#each this}}
+                    <td class="environment-cell">
+                       <div class="environment">
+                          <div class="summary">
+                              <h2>{{this.name}}</h2>
+                              <div><a href="{{this.siteUrl}}">Site</a></div>
+                              <div><a href="{{this.backofficeUrl}}">Backoffice</a></div>
+                              <h2 class="status status-{{this.current.status}}">{{this.current.status}}</h2>
+                              <div class="version">
+                                <table>
+                                    <tr><td>Build:</td><td>{{this.current.version.build}}</td></tr>
+                                    <tr><td>Branch:</td><td>{{this.current.version.branch}}</td></tr>
+                                    <tr><td>Hash:</td><td>{{this.current.version.hash}}</td></tr>
+                                    <tr><td>Built:</td><td>{{this.current.version.buildTime}}</td></tr>
+                                </table>
+                              </div>
+                          </div>
+                          <div class="history">
+                            <h3>Deployments</h3>
+                            <table class="history">
+                            <tr>
+                                <th>Build#</th>
+                                <th>Branch</th>
+                                <th>Time</th>
+                            </tr>
+                            {{#each deploys}}
+                            <tr class="{{this.result}}">                    
+                                <td><a href="{{this.link}}">{{this.deployed}}</a></td>
+                                <td>{{this.branch}}</td>
+                                <td>{{this.timeString}}</td>
+                            </tr>
+                            {{/each}}
+                            </table>
+                          </div>
+                       </div>
+                    </td>
+                    {{/each}}
+                    </tr>
+                  </table>
+                </div>
+        </script>
+        <script src="status.js"></script>
+        <div id='status'>
+        </div>
+        <script>
+            var source = $("#template").html();
+            var template = Handlebars.compile(source);
+            var rendered = template(data);
+            $('#status').html(rendered);
+        </script>
+    </body>
+</html>                
+             
